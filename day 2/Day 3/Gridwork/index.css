@@ -1,0 +1,29 @@
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+  padding: 20px;
+  height: 100px;
+}
+
+
+.box {
+  border: 2px solid black;
+  padding: 15px;
+  text-align: center;
+  background-color: #white;
+}
+
+.inner-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.inner-box {
+  border: 1px solid #333;
+  padding: 20px;
+  background-color: white;
+}

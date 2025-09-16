@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Four Image Boxes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .row {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .box {
+      flex: 1;
+      background-color: #0e1013;
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+
+    .box img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px 8px 0 0;
+    }
+
+    .caption {
+      padding: 10px;
+      text-align: center;
+      font-size: 16px;
+      background-color: #1a1c20;
+      width: 100%;
+      border-radius: 0 0 8px 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      
+      <div class="box">
+        <img src="https://images.unsplash.com/photo-1530092285049-1c42085fd395?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlJTIwZmxvd2VyfGVufDB8fDB8fHww" alt="Image 1">
+        <div class="caption">Flower</div>
+      </div>
+      <div class="box">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/pale-purple-cosmos-flower-1656258166.jpeg?crop=1.00xw:0.834xh;0,0.160xh&resize=980:*" alt="Image 2">
+        <div class="caption">Flower</div>
+      </div>
+      <div class="box">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/sacred-lotus-gettyimages-1143403162-646fa5a441f5d.jpg?crop=0.535xw:1.00xh;0.0519xw,0&resize=980:*" alt="Image 3">
+        <div class="caption">Flower</div>
+      </div>
+      <div class="box">
+        <img src="https://i.pinimg.com/videos/thumbnails/originals/34/b9/04/34b904216e0739ef539fb95b5a8ae500.0000000.jpg" alt="Image 4">
+        <div class="caption">Flower</div>
+      </div>
+     
+    </div>
+  </div>
+
+</body>
+</html>
